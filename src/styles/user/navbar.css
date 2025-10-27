@@ -1,0 +1,46 @@
+.user-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111827;
+    /* tono oscuro tipo app */
+    color: #fff;
+    padding: 0.9rem 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-navbar__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.user-navbar__name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.user-navbar__role {
+    font-size: 0.78rem;
+    opacity: 0.85;
+}
+
+.user-navbar__logout {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 0.45rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 1.5rem;
+}
+
+.user-navbar__logout:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
