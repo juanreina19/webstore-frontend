@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api"; // Ajusta si usas otro puerto
+const BASE_URL = "https://webstore-backend-lime.vercel.app/api"; // Ajusta si usas otro puerto
 
 /**
  * Función genérica para realizar peticiones al backend.
